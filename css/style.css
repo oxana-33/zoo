@@ -3,14 +3,12 @@
 }*/
 
 #a{
-	font-size: 23;	
-	padding: 12;
+	font-size: 23px;	
+	padding: 17px;
 }
 
 .menu{
-	background-color: #FBEFF8;
-	padding-left: 17px;
-	font-size: 23px;	
+	background-color: #FBEFF8;	
 }
 
 a[href="zoo.html"]{
