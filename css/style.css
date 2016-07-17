@@ -1,0 +1,70 @@
+﻿/*body{
+	background-image: url(im/bg.jpg);
+}*/
+
+#a{
+	font-size: 23;	
+	padding: 12;
+}
+
+.menu{
+	background-color: #FBEFF8;
+}
+
+a[href="zoo.html"]{
+  color:red;
+
+}
+
+.head {
+ background-color: #FAFAFA;
+ cursor: pointer;
+ 
+}
+
+h1{
+	font-family: Gungsuh;
+	text-align: center;
+	font-size: 45;
+	color: #32CD32;
+	vertical-align: bottom;
+		
+}
+
+p{
+	margin-left: 10px;
+	margin-right: 10px;	
+	font-family: arial;
+	font-size: 15;
+	color: purple;	
+	text-align: justify;
+}
+
+a:hover{
+	text-decoration:none;
+
+}
+
+.head:hover {
+	background-color: #819FF7;
+	color: #FFFF00;
+	
+}
+
+h1:hover {
+	color: #FFFF00;
+	
+}
+
+.video {
+	width: 600;
+    height: 400;
+}
+
+iframe {
+	width: 600;
+    height: 400;
+}
+
+#video {z-index: 100}
+#image {z-index: 1}

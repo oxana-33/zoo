@@ -1,0 +1,61 @@
+<html>
+
+<head>
+	<title>Зоомагазин</title>
+	
+	<link rel ="icon"  type="image/jpg" href="im/z.jpg">
+	<link rel="stylesheet" href="css/style.css">
+	
+</head>
+
+<body   style="background-image: url(im/bg.jpg)">
+	<div class="container">
+		<table  width="750"   border="2"   align="center"  bgcolor="white" cellspacing="1">
+			<tr   class="head"   height="70"   valign="bottom"    onclick="window.location.href='zoo.html'" style="cursor: pointer"  "return false">
+				<td  colspan="2">
+				<h1>Видео Котят</h1>
+				</td>
+			</tr>
+			
+			<tr height="400">
+				<td  class="menu"  width="150">
+					<a id="a"  href="zoo.html">Главная</a><br>
+					
+					<a id="a"  href="cat.html">Котята</a><br>
+					<a id="a"  href="dog.html">Щенята</a><br>
+					<a id="a"  href="parrot.html">Попугаи</a><br>
+					<a id="a"  href="fish.html">Рыбки</a>
+					
+					<br><br>
+					<a id="a"  href="video.html">Видео</a>
+				
+				</td>
+				
+				<td  class="video"   width="600">
+				
+			<DIV onclick="thevid=document.getElementById('video'); thevid.style.display='block'; this.style.display='none'">
+					<img src="im/1.jpg" style="cursor:pointer" />
+			</DIV>
+			
+			<div id="video" style="display:none">
+			
+				<iframe src="https://www.youtube.com/embed/zXQnLgRGNPg?rel=0" frameborder="0"; autoplay>
+				</iframe>
+				
+			</div>
+				
+				</td>
+
+			</tr>
+			
+			<tr  height="130">
+				<td  colspan="2">
+				<H3>Oписание</h3>
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+</body>
+
+</html>
