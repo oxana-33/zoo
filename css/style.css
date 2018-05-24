@@ -50,6 +50,15 @@
 }
 
 
+.button a:active{
+	border: green 1px solid;
+	border-bottom: none;
+	padding-left: 2px;
+	padding-top: 2px;
+	width: 169px;
+	line-height: 56px;
+	height: 56px;
+}
 
 #a{
 	font-size: 23px;	
