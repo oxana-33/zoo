@@ -6,6 +6,8 @@
 	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel ="icon"  type="image/jpg" href="im/z.jpg">
+
+	
 </head>
 
 
@@ -13,14 +15,27 @@
 					
 	<div class="pith">
 	
+		<div class="fm">
+	
+			<form>
+				<input type="text" placeholder="login" name="log" id="lg">
+				<input type="password" placeholder="*******" name="passw" id="pw">
+				<input type="button" value="Войти">
+				<br><br>
+				<a id="reg"  href="">Зарегистрировались?</a>
+			</form>
+	
+		</div>
+		
+		
 		<div class="square">
 		
-			<table  width="750px"   border="2"   align="center"  bgcolor="white" cellspacing="1">
+			<table  width="770px"   border="2"   align="center"  bgcolor="white" cellspacing="1">
 				
 				<thead class="head"   height="10">
 					<tr>
 						<td  colspan="3">
-						<h1>Зоомагазин "<font color="grag">ZOO</font>"</h1>
+						<h1>Зоомагазин "<span id="zoo">ZOO</span>"</h1>
 						</td>
 					</tr>
 				</thead>
@@ -28,16 +43,28 @@
 				
 				<tbody class="menu"  height="400">
 					<tr>
-						<td  width="150">
-							<a id="a"  href="index.html">Главная</a><br><br>
+						<td  width="170">
+							<!-- <a id="gl"  href="index.html">ГЛАВНАЯ</a><br><br> -->
 							
-							<a id="a"  href="cat.html">Котята</a><br><br>
-							<a id="a"  href="dog.html">Щенята</a><br><br>
-							<a id="a"  href="parrot.html">Попугаи</a><br><br>
-							<a id="a"  href="fish.html">Рыбки</a>
+							<!-- <a id="a"  href="cat.html">Котята</a><br><br> -->
+							<!-- <a id="a"  href="dog.html">Щенята</a><br><br> -->
+							<!-- <a id="a"  href="parrot.html">Попугаи</a><br><br> -->
+							<!-- <a id="a"  href="fish.html">Рыбки</a> -->
 							
-							<br><br>
-							<a id="a"  href="video.html">Видео</a>	
+							<!-- <br><br> -->
+							<!-- <a id="a"  href="video.html">Видео</a>	 -->
+							
+							<ul>
+							 <li><a id="gl"  href="cat.html">ГЛАВНАЯ</a></li>
+							 
+							 <li><a id="a"  href="cat.html">Котята</a></li>
+							 <li><a id="a"  href="dog.html">Щенята</a></li>
+							 <li><a id="a"  href="parrot.html">Попугаи</a></li>
+							 <li><a id="a"  href="fish.html">Рыбки</a></li>
+							 
+							 <li><a id="a"  href="video.html">Видео</a></li>
+							
+							</ul>
 						
 						</td>
 					
@@ -72,11 +99,14 @@
 		
 		<div class="zakaz">
 			<div class="button">
-				<a href="form.html"  id="zac">Сделать заказ</a>
+				<!-- <a href="form.html"  id="zac">Сделать заказ</a> -->
+				<a href=""  id="zac">Сделать заказ</a>
 			</div>
 		</div>
 	
+		
 	</div>	
+	
 
 </body>
 
