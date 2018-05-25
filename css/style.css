@@ -19,6 +19,8 @@
 
 #lg{width: 71px}
 
+#imlog{padding-left: 11px}
+
 #pw{width: 71px}
 
 #reg{color: dodgerblue}
@@ -109,6 +111,14 @@ ul li #gl{
 }
 
 
+ul li:hover{
+	text-decoration: underline;
+}
+
+#a:hover{
+	text-decoration: underline;
+}
+
 
 .head {
  background-color: #FAFAFA;
@@ -134,9 +144,6 @@ p{
 	text-align: justify;
 }
 
-a:hover{
-	text-decoration:none;
-}
 
 
 .head:hover {
