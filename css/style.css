@@ -8,10 +8,26 @@
 	height: 100%;
 }
 
+
+
+.fm{
+	display: block;
+	width: 212px;
+	float: left;
+}
+
+
+#lg{width: 71px}
+
+#pw{width: 71px}
+
+#reg{color: dodgerblue}
+
+	
 .square{
 	width: 770px;
 	height: 100%;
-	margin-left: 20%;
+	margin-left: 4%;
 	float: left;
 }
 
@@ -20,12 +36,9 @@
 }
 
 .button{
-	/* padding: 1px 0 0 10px; */
 	margin: 3px 0 0 66px;
 	width: 173px;
 	height: 61px;
-	/* display: block; */
-	
 	border: coral 2px solid;
 }
 
@@ -49,7 +62,6 @@
 	background: linear-gradient(red, yellow);
 }
 
-
 .button a:active{
 	border: green 1px solid;
 	border-bottom: none;
@@ -60,9 +72,17 @@
 	height: 56px;
 }
 
-#a{
+
+ul li a{
 	font-size: 23px;	
-	padding: 17px;
+	padding: 3px;
+	text-decoration: none;
+	line-height: 33px;
+	/* list-style: none; */
+}
+
+ul li{
+	list-style-image:  url(../im/pad.jpg);
 }
 
 .menu{
@@ -70,9 +90,16 @@
 }
 
 a[href="index.html"]{
-  color:red;
-
 }
+
+ul li #gl{
+	color: tomato;
+	font-size: 19px;
+	padding: 3px;
+	text-decoration: none;
+}
+
+
 
 .head {
  background-color: #FAFAFA;
@@ -85,7 +112,8 @@ h1{
 	text-align: center;
 	font-size: 45;
 	color: #32CD32;
-	vertical-align: bottom;		
+	vertical-align: bottom;
+		
 }
 
 p{
@@ -99,18 +127,27 @@ p{
 
 a:hover{
 	text-decoration:none;
-
 }
+
 
 .head:hover {
 	background-color: #819FF7;
 	color: #FFFF00;
 }
 
+#zoo{color: tomato}
+
+
+h1:hover  #zoo{
+	color: paleturquoise;
+	
+}
+
 h1:hover {
 	color: #FFFF00;
 	
 }
+
 
 .video {
 	width: 600;
