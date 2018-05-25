@@ -7,23 +7,27 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel ="icon"  type="image/jpg" href="im/z.jpg">
 
-	
 </head>
 
 
-<body  style="background-image: url(im/fon.jpg)">
+<body  style="background-image: url(im/fon/fon.jpg)">
 					
 	<div class="pith">
 	
 		<div class="fm">
 	
 			<form action="log.html"   method="get"   target="_blank">
-			
-				<input type="text" placeholder="login" name="log" id="lg"  required>
+				<label id="lbl">Ваш логин</label>
+				&nbsp;
+				<label id="lbl">Пароль</label><br>
+				
+				<input type="text" placeholder="login" name="log" id="lg"  required  autofocus>
+				&nbsp;
 				<input type="password" placeholder="*******" name="passw" id="pw"  required>
 				<input type="submit" value="Войти">
 				<br><br>
 				<a id="reg"  href="reg.html"  target="_blank">Зарегистрировались?</a>
+				
 			</form>
 	
 		</div>
