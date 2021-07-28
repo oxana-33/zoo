@@ -4,49 +4,60 @@
 	<meta charset="utf-8">
 	<title>Зоомагазин</title>
 	
+	<link rel ="icon"  type="image/png" href="../im/ic/7.png">
 	<link rel="stylesheet" href="../css/style.css">
-	<link rel ="icon"  href="../im/z.png">
 	
 </head>
 
 
-<body  style="background-image: url(../im/fon/1.jpg)">
+<body  style="background-image: url(../im/fon/c/1.jpg)">
 
 	<div class="container">
 		<table  width="750"   border="2"   align="center"  bgcolor="white" cellspacing="1">
 		
-			<tr    class="head"   height="70"   valign="bottom"    onclick="window.location.href='../index.html'; return false">
-				<td  colspan="2">
-				<h1>Зоомагазин: котята</h1>
-				</td>
-			</tr>
+			<thead    class="head"   height="70"   valign="bottom"    onclick="window.location.href='../index.html'; return false">
+				<th  colspan="2">
+				<h1>Зоомагазин: <span id="cat">котята</span></h1>
+				</th>
+			</thead>
 			
-			<tr height="400">
-				<td  class="menu"  width="150">
-				
-					<a id="a"  href="../index.html">Главная</a><br><br>
+			
+			<tbody class="menu"  height="400">
+			
+				<td  class="menu"  width="170">
 					
-					<a id="a"  href="cat.html"><b>Котята</b></a><br><br>
-					<a id="a"  href="dog.html">Щенята</a><br><br>
-					<a id="a"  href="parrot.html">Попугаи</a><br><br>
-					<a id="a"  href="fish.html">Рыбки</a>
+					<a href="../index.html"><img id="imlog"  src="../im/log/log.jpg"></img></a>
+						
+					<ul>
+						 <li><a id="gl"  href="../index.html">ГЛАВНАЯ</a></li>
+						 
+						 <li><a id="a"  href="cat.html">Котята</a></li>
+						 <li><a id="a"  href="dog.html">Щенки</a></li>
+						 <li><a id="a"  href="parrot.html">Попугаи</a></li>
+						 <li><a id="a"  href="fish.html">Рыбки</a></li>
+						 
+						 <li><a id="a"  href="video.html">Видео</a></li>
 					
-					<br><br>
-					<a id="a"  href="video.html">Видео</a>
+					</ul>
 				
 				</td>
-				
-				<td  class="image"   width="600">
+			
+				<td  class="image"   width="666">
 				<a href="dog.html"><img  src="../im/c/c400.jpg"></a>
 				</td>
 				
-			</tr>
+			</tbody>
 			
-			<tr  height="120">
-				<td  colspan="3">
-				<H3  id="discr">Oписание</h3>
-				</td>
-			</tr>
+			<tfoot  height="120">
+			
+				<tr  height="120">
+					<td  colspan="3">
+					<H3  id="discr">Oписание</h3>
+					</td>
+				</tr>
+
+			</tfoot>
+
 		</table>
 		
 	</div>
