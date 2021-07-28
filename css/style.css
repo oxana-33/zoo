@@ -39,12 +39,24 @@ body{
 
 #lbl{color: LightGreen}
 
-button{width: 85px; 
-	height:25px; 
-	margin-top: 3px;
-	margin-left: 11px;
-	color: white;
-	background: #347AB6;}
+
+button{
+	/* width: 85px;  */
+	/* height:25px;  */
+	/* margin-top: 3px; */
+	/* margin-left: 11px; */
+	/* color: white; */
+	/* background: #347AB6; */
+	}
+	
+#bt{
+	/* width: 85px;  */
+	/* height:25px;  */
+	/* margin-top: 3px; */
+	/* margin-left: 11px; */
+	/* color: white; */
+	/* background: #347AB6; */
+	}
 
 
 	
