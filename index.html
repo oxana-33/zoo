@@ -4,47 +4,50 @@
 	<meta charset="utf-8">
 	<title>Зоомагазин "ZOO"</title>
 	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font.css">
+	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel ="icon"  type="image/png" href="im/ic/7.png">
-	<link rel="icon" href="im/z.png">
 
 </head>
 
 
 <body  style="background-image: url(im/fon/fon.jpg)">
 					
-	<div class="pith">
+	<div class="container"   id="pith">
 	
-		<div class="fm">
+		<div class="container"  id="cont1">
 	
-			<form action="log.html"   method="get"   target="_blank">
-				<label id="lbl">Ваш логин</label>
-				&nbsp;
-				<label id="lbl">Пароль</label><br>
-				
-				<input type="text" placeholder="login" name="log" id="lg"  required  autofocus>
-				&nbsp;
-				<input type="password" placeholder="*******" name="passw" id="pw"  required>
-				<input type="submit" value="Войти">
-				<br><br>
-				<a id="reg"  href="reg.html"  target="_blank">Зарегистрировались?</a>
-				
-			</form>
-	
+			<div class="fm">
+		
+				<form action="log.html"   method="get"   target="_blank">
+					<label id="lbl">Логин</label><br>
+					<input type="text" placeholder="login" name="log" id="lg"  required  autofocus><br><br>
+					
+					<label id="lbl">Пароль</label><br>
+					<input type="password" placeholder="*******" name="passw" id="pw"  required>
+					
+					<button type="button"  class="btn btn-primary">Войти</button>
+					
+					<br><br>
+					<a id="reg"  href="reg.html"  target="_blank">Зарегистрировались?</a>
+				</form>
+			</div>
 		</div>
 		
 		
-		<div class="square">
+		<div class="container"  id="cont2">
 		
-			<table  width="770px"   border="2"   align="center"  bgcolor="white" cellspacing="1">
+			<table  width="750px"   border="2"   align="center"  bgcolor="white" cellspacing="1">
 				
-				<thead class="head"   height="10">
-					<tr>
-						
-						<td  colspan="3">
-						<h1>Зоомагазин "<span id="zoo">ZOO</span>"</h1>
-						</td>
-					</tr>
+				<thead   height="1">
+					<th  colspan="3">
+						<!-- <h1>Зоомагазин "<span id="zoo"  class="zzz">ZOO</span>"</h1> -->
+						<h1>Зоомагазин "<span id="zoo1">Z</span><span id="zoo2">O</span><span id="zoo3">O</span>"</h1>
+					</th>
 				</thead>
 				
 				
@@ -52,7 +55,7 @@
 					<tr>
 						<td  width="170">
 							
-							<a href=""><img id="imlog"  src="im/log/log.jpg"></img></a>
+							<a href="#"><img id="imlog"  src="im/log/log.jpg"></img></a>
 						
 							<ul>
 							 <li><a id="gl"  href="#">ГЛАВНАЯ</a></li>
@@ -68,6 +71,7 @@
 						
 						</td>
 					
+						<!-- картинки -->
 						<td  class="image"   width="300">
 						<a href="anim/cat.html"  target="_blank"><img  src="im/c/cs.jpg"></a>
 						<a href="anim/dog.html"  target="_blank"><img  src="im/d/ds.jpg"></a>
@@ -97,17 +101,22 @@
 		</div>
 	
 		
-		<div class="zakaz">
-			<div class="button">
-				<!-- <a href="form.html"  id="zac">Сделать заказ</a> -->
-				<a href=""  id="zac">Сделать заказ</a>
+		<div class="container"  id="cont3">
+			<div class="zakaz">
+				<div class="button">
+					<!-- <a href="form.html"  id="zac">Сделать заказ</a> -->
+					<a href="#"  id="zac">Сделать заказ</a>
+				</div>
 			</div>
 		</div>
-	
 		
 	</div>	
 	
-
+	
+	<script src="js.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+	
 </body>
 
 </html>
