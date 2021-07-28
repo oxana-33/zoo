@@ -1,42 +1,67 @@
-﻿body{
+body{
 	/* background-image: url(im/bg.jpg); */
 	height: 677px;
 }
 
-.pith{
+#pith{
 	width: 100%;
 	height: 100%;
+	display: flex;
+	margin-top: 22px;
 }
 
 
+#cont1{
+	width: 260px;
+	height: 100%;
+	display: block;
+	padding-left: 15px;
+	/* background-color: red; */
+}
 
 .fm{
 	display: block;
 	width: 220px;
 	float: left;
+	font-size:17px;
 }
 
 
-#lg{width: 71px}
+/* форма form */
+
+#lg{width: 77px; height:15px; margin-top: 3px;}
 
 #imlog{padding-left: 11px}
 
-#pw{width: 71px}
+#pw{width: 77px; height:15px; margin-top: 3px;}
 
 #reg{color: dodgerblue}
 
 #lbl{color: LightGreen}
+
+button{width: 85px; 
+	height:25px; 
+	margin-top: 3px;
+	margin-left: 11px;
+	color: white;
+	background: #347AB6;}
+
+
 	
-.square{
-	width: 770px;
+#cont2{
+	width: 750px;
 	height: 100%;
-	margin-left: 4%;
-	float: left;
+	/* margin-left: 4%; */
+	/* margin: center; */
+	/* float: left; */
 }
 
 .zakaz{
 	float: left;
 }
+
+#zac{font-size: 22px;}
+
 
 .button{
 	margin: 3px 0 0 66px;
@@ -85,7 +110,7 @@ ul li a{
 }
 
 ul li{
-	list-style-image:  url(../im/pad.jpg);
+	list-style-image:  url(../im/ic/pad.jpg);
 }
 
 .menu{
@@ -105,7 +130,7 @@ a[href="index.html"]{
 
 ul li #gl{
 	color: tomato;
-	font-size: 20px;
+	font-size: 21px;
 	padding: 3px;
 	text-decoration: none;
 }
@@ -120,7 +145,7 @@ ul li:hover{
 }
 
 
-.head {
+thead {
  background-color: #FAFAFA;
  cursor: pointer;
  
@@ -146,24 +171,38 @@ p{
 
 
 
-.head:hover {
-	background-color: #819FF7;
-	color: #FFFF00;
+thead:hover {
+	background-color: LightSkyBlue;
 }
 
-#zoo{color: tomato}
+
+#zoo1{color: tomato}
+#zoo1{color: red}
+#zoo2{color: DodgerBlue}
+#zoo3{color: Orange}
+
+#cat{color: RosyBrown}
+#dog{color: BurlyWood}
+#pop{color: DeepSkyBlue}
+#pop{color: DarkTurquoise}
+#fsh{color: salmon}
+
+/* .zzz::first-letter{color: blue} */
 
 
 h1:hover  #zoo{
 	color: paleturquoise;
-	
 }
 
 h1:hover {
-	color: #FFFF00;
-	
+	color: yellow;
 }
 
+thead:hover  #zoo2{
+	color: blue}
+h1:hover  #zoo2{
+	color: blue}
+	
 
 .video {
 	width: 600;
@@ -179,3 +218,9 @@ iframe {
 #image {z-index: 1}
 
 #discr{padding-left: 15px}
+
+.vopros{
+	font-size: 18px;
+	margin-left: 170px;
+	margin-top: 120px;
+}
